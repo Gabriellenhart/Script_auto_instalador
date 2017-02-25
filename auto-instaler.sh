@@ -13,7 +13,8 @@ echo "==========================================================
 	7 - Oracle Java 8
 	8 - Remover Java 8
 	9 - Flash Palyer para firefox
-	10 - Remover Flash Player
+	10 - Correção de pacotes quebrados
+	11 - Pacote Developer
         0 - Sair
 ==========================================================="
 echo -n "->OPÇÃO:  "
@@ -74,7 +75,17 @@ case $opcao in
     9)	wget https://fpdownload.adobe.com/pub/flashplayer/pdc/24.0.0.194/flash_player_ppapi_linux.x86_64.tar.gz -O flash.tar.gz
 	tar -zxvf flash.tar.gz
 	sudo cp libflashplayer.so /usr/lib/mozilla/plugins/
-	sudo cp -r usr/* /usr
+	sudo cp -r usr/* /usr;;
+	
+	#Remove pacotes quebrados
+    10) sudo apt-get -f install && sudo dpkg --configure -a
+	sudo dpkg --configure -a;;
+
+    11) sudo apt-get install arduino
+	sudo apt-get install vim
+	sudo apt-get instal gcc
+
+
 	
 
     0)
