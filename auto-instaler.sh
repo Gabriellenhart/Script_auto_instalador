@@ -83,7 +83,7 @@ case $opcao in
 
     11) sudo apt-get install arduino
 	sudo apt-get install vim
-	sudo apt-get instal gcc
+	sudo apt-get instal gcc;;
 
 
 	
