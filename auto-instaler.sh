@@ -15,6 +15,7 @@ echo "==========================================================
 	9 - Flash Palyer para firefox
 	10 - Correção de pacotes quebrados
 	11 - Pacote Developer
+	12 - Redshift-GTK
         0 - Sair
 ==========================================================="
 echo -n "->OPÇÃO:  "
@@ -83,7 +84,10 @@ case $opcao in
 
     11) sudo apt-get install arduino
 	sudo apt-get install vim
-	sudo apt-get instal gcc
+	sudo apt-get instal gcc;;
+
+    12) sudo apt-get update
+	sudo apt-get install redshift-gtk;;
 
 
 	
