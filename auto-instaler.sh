@@ -1,6 +1,8 @@
 #!/bin/bash
 
 #Este escript foi criado com a intuição de ajudar pessoas preguiçosas. Assim como o ser que o implemetou, pois não teve a coragem de criar uma coisa que preste. 
+#Se tu tens interesse em acompanhar o andamento desse "projeto de script", ou dar uma olhada mais de perto. Então segue o link do repositório: 
+https://gabriellenhart@bitbucket.org/gabriellenhart/script-auto-instalador.git
 
 clear
 while true; do
