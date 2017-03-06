@@ -1,11 +1,13 @@
 #!/bin/bash
 
+#Este escript foi criado com a intuição de ajudar pessoas preguiçosas. Assim como o ser que o implemetou, pois não teve a coragem de criar uma coisa que preste. 
+
 clear
 while true; do
 echo "==========================================================
-        Digite o número do componente a ser instalado:
+		Digite o número para realizar a função desejada:
         1 - Ubuntu Tweak
-        2 - Codeblocks
+	2 - Codeblocks (esse editor não é muito bom)
         3 - Virtualbox
         4 - VLC player
 	5 - Chrome amd64
@@ -15,7 +17,7 @@ echo "==========================================================
 	9 - Flash Palyer para firefox
 	10 - Correção de pacotes quebrados
 	11 - Pacote Developer
-	12 - Redshift-GTK
+	12 - Redshift-GTK (temperatura do monitor)
         0 - Sair
 ==========================================================="
 echo -n "->OPÇÃO:  "
@@ -24,7 +26,7 @@ read opcao
 
 #verificar se foi digitada uma opcao
 if [ -z $opcao ]; then
-    echo "ERRO: digite uma opcao"
+    echo "ERROOOOOOOU!!! Digita certo ai meu."
     exit
 fi
 
@@ -100,7 +102,7 @@ case $opcao in
         exit;;
     *)
         echo
-        echo "ERRO: opção inválida"
+        echo "ERROOOOOOOU!!!: Digita certo ai meu!"
         echo ;;
 esac
 done
