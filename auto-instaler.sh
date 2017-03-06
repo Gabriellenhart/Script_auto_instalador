@@ -87,12 +87,11 @@ case $opcao in
     11) sudo apt-get install arduino
 	sudo apt-get install vim
 	sudo apt-get instal gcc;;
-<<<<<<< HEAD
+
 
     12) sudo apt-get update
 	sudo apt-get install redshift-gtk;;
-=======
->>>>>>> 517c2569c3ee3f67e7b1962c759980aad59fd4f7
+
 
 
 	
