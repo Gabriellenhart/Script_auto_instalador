@@ -20,6 +20,8 @@ echo "==========================================================
 	10 - Correção de pacotes quebrados
 	11 - Pacote Developer
 	12 - Redshift-GTK (temperatura do monitor)
+	13 - Youtube-dl
+	14 - Xpdf
         0 - Sair
 ==========================================================="
 echo -n "->OPÇÃO:  "
@@ -94,8 +96,11 @@ case $opcao in
     12) sudo apt-get update
 	sudo apt-get install redshift-gtk;;
 
+    13) sudo apt-get update
+	sudo spt-get install youtbe-dl;;
 
-
+    14) sudo apt-get update 
+	sudo apt-get install xpdf
 	
 
     0)
