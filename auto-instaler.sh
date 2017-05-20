@@ -100,7 +100,7 @@ case $opcao in
 	sudo spt-get install youtbe-dl;;
 
     14) sudo apt-get update 
-	sudo apt-get install xpdf
+	sudo apt-get install xpdf;;
 	
 
     0)
