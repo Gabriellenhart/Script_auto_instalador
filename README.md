@@ -5,7 +5,7 @@
 #Este escript foi criado com a intuíto de ajudar pessoas preguiçosas a instalar os programas em distribuições GNU/Linux baseada no Debian. Assim como o ser que o implemetou, pois não teve ainda capacidade de criar um script que preste. 
 #Se tu tens interesse em acompanhar o andamento desse "projeto de script", ou dar uma olhada mais de perto. Então segue o link do repositório:
 #
-#https://gabriellenhart@bitbucket.org/gabriellenhart/script-auto-instalador.git
+#https://gabriellenhart@bitbucket.org/gabriellenhart/script_auto_instalador.git
 #
 #______________________________________________Instalação e funcionamento______________________________________________________________
 #
