@@ -19,6 +19,7 @@ echo "==========================================================
 	Chrome amd64
 	Java 8
 	Teamviewer 10
+	Kazam
 	
 
         0 - Sair
@@ -59,9 +60,10 @@ case $opcao in
 	sudo apt-get install oracle-java8-installer -y
         sudo dpkg --add-architecture i386 -y
 	sudo apt-get update -y
-        sudo apt-get install gdebi y
+        sudo apt-get install gdebi -y
         wget http://download.teamviewer.com/download/teamviewer_i386.deb -y
-        sudo gdebi teamviewer_linux.deb -y;;
+        sudo gdebi teamviewer_linux.deb -y
+	sudo apt-get install kazam -y;;
     0)
 echo
 echo "Saindo..."
